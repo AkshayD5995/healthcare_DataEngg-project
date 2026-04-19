@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "AKSHAY\\SQLEXPRESS",
+			"database": "hospitaldb",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "onpremwork2",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5ZmM4NGU5My05NTY4LTQ4MjktYjM0YS1jMmUyNmM0ZTA3MWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
