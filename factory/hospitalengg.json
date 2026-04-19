@@ -1,0 +1,9 @@
+{
+	"name": "hospitalengg",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4c04f636-a942-40d4-a89b-cb364f101e13",
+		"tenantId": "3e0703c0-a720-4c9c-9a05-e1e59039f4da"
+	}
+}
