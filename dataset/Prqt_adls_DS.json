@@ -1,0 +1,19 @@
+{
+	"name": "Prqt_adls_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_sink_destntn",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "none"
+		},
+		"schema": []
+	}
+}
