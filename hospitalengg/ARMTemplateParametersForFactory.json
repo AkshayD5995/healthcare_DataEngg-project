@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "hospitalengg"
+		},
+		"SqlServer1source_password": {
+			"value": ""
+		},
+		"adls_sink_destntn_accountKey": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://onpremwork2.vault.azure.net/"
+		},
+		"SqlServer1source_properties_typeProperties_server": {
+			"value": "AKSHAY\\SQLEXPRESS"
+		},
+		"SqlServer1source_properties_typeProperties_database": {
+			"value": "hospitaldb"
+		},
+		"SqlServer1source_properties_typeProperties_userName": {
+			"value": "onpremwork2"
+		},
+		"adls_sink_destntn_properties_typeProperties_url": {
+			"value": "https://adls2onpremwork.dfs.core.windows.net/"
+		}
+	}
+}
