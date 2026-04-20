@@ -16,10 +16,6 @@
 				"name": "Name",
 				"type": "nvarchar"
 			}
-		],
-		"typeProperties": {
-			"schema": "HospA",
-			"table": "departments"
-		}
+		]
 	}
 }
