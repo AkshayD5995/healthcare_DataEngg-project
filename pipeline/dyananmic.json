@@ -102,7 +102,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
-						"sqlReaderQuery": "SELECT s.name as schemaname,\nt.name as tablename \nFROM sys.tables t\njoin sys.schemas s \non t.schema_id=s.schema_id\nWHERE s.name = 'HospA';",
+						"sqlReaderQuery": "SELECT s.name as schemaname,\nt.name as tablename \nFROM sys.tables t\nJOIN sys.schemas s \nON t.schema_id = s.schema_id\nWHERE s.name IN ('HospA', 'HospB');",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
