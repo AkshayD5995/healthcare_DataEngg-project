@@ -1,0 +1,40 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_sink_destntn",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "cptcodes (2).csv",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Procedure Code Category",
+				"type": "String"
+			},
+			{
+				"name": "CPT Codes",
+				"type": "String"
+			},
+			{
+				"name": "Procedure Code Descriptions",
+				"type": "String"
+			},
+			{
+				"name": "Code Status",
+				"type": "String"
+			}
+		]
+	}
+}
