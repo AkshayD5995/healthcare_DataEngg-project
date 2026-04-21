@@ -216,7 +216,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "claims1_hospA",
+						"referenceName": "claim2_hospB",
 						"type": "DatasetReference"
 					}
 				],
