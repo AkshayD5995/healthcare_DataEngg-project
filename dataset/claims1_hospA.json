@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "hospital1_claim_data (1).csv",
 				"fileSystem": "landing"
 			},
 			"columnDelimiter": ",",
