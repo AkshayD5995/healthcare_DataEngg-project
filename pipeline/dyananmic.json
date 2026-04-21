@@ -166,7 +166,17 @@
 				"outputs": [
 					{
 						"referenceName": "Prqt_adls_DS",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaname": {
+								"value": "claims",
+								"type": "Expression"
+							},
+							"tablename": {
+								"value": "hospA",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			},
@@ -223,7 +233,17 @@
 				"outputs": [
 					{
 						"referenceName": "Prqt_adls_DS",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaname": {
+								"value": "claims",
+								"type": "Expression"
+							},
+							"tablename": {
+								"value": "hospB",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
